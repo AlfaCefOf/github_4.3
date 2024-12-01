@@ -1,0 +1,390 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 21px 0px;
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+    position: sticky;
+    background-color: white;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.left-header button {
+    border: none;
+    background-color: rgba(252, 0, 74, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 6px 0;
+    width: 256px;
+    font-size: 14.75px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    gap: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.button-header img:nth-child(2) {
+    display: none;
+}
+
+.left-header {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+div li a {
+    font-size: 16.63px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+
+
+div li a:hover {
+    font-size: 16.63px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(252, 0, 74, 1);
+}
+
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-menu {
+    display: none;
+}
+
+.showcase1 {
+    margin-top: 63px;
+    max-width: 1400px;
+    max-height: 396px;
+    display: flex;
+    justify-content: center;
+}
+
+.showcase1 .showcase1-img {
+    width: 94%;
+    height: 90%;
+}
+
+.top-section1 {
+    margin-top: 64.34px;
+    font-size: 30.48px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #262626;
+    margin-bottom: 44px;
+}
+
+.foods1 {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.foods2 {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.foods3 {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.food1 {
+    box-shadow: 0px 4px 6px -4px #0000001A;
+    box-shadow: 0px 10px 15px -3px #0000001A;
+    width: 290px;
+    height: 391px;
+    border-radius: 15px;
+}
+
+.food1-text1 {
+    font-size: 19.66px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000000;
+    margin: 16px 0 8px 12px;
+}
+
+.food1-text2 {
+    font-size: 20.28px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FC004A;
+    margin-left: 12px;
+}
+
+.button-food1 {
+    display: flex;
+    justify-content: end;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+
+.food-plus {
+    transition: 0.7s;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    border: 2px solid #FC004A;
+    color: #FC004A;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+}
+
+.food-plus:hover {
+    transition: 0.7s;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    color: white;
+    background-color: #FC004A;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+i {
+    font-size: 28px;
+}
+
+footer {
+    padding: 81px 257px 51px 96px;
+}
+
+.middle-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foods3 div:nth-child(5) {
+    display: none;
+}
+
+.foods3 div:nth-child(6) {
+    display: none;
+}
+
+.foods3 div:nth-child(7) {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:870px) {
+    .header-left-img {
+        display: none;
+    }
+
+    .food1 {
+        width: 211.59px;
+        height: 315.14px;
+    }
+
+    .food1-img {
+        width: 183px;
+        height: 183px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .foods1 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .foods2 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .foods3 {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .foods1 div:nth-child(4) {
+        display: none;
+    }
+
+    .foods2 div:nth-child(4) {
+        display: none;
+    }
+
+    .foods3 div:nth-child(4) {
+        display: none;
+    }
+
+    .foods3 div:nth-child(5) {
+        display: block;
+    }
+
+    .food1-text1 {
+        width: 161.43px;
+    }
+
+    .foods3 div:nth-child(6) {
+        display: block;
+    }
+
+    .foods3 div:nth-child(7) {
+        display: block;
+    }
+}
+
+@media(max-width:670px) {
+    .food1 {
+        width: 213px;
+        height: 323px;
+        position: relative;
+    }
+
+    .food1-text1 {
+       width: 200px;
+    }
+
+    .food1-img {
+        width: 173px;
+        height: 173px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .foods1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .foods2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .foods3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .right-header {
+        display: none;
+    }
+
+    .bar-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .left-header button {
+        padding: 12px 0;
+    }
+
+    .button-header img:nth-child(1) {
+        display: none;
+    }
+
+    .button-header img:nth-child(2) {
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+
+    .foods1 div:nth-child(4) {
+        display: block;
+    }
+
+    .top-section1 {
+        margin-top: 247px;
+    }
+
+    .foods3 div:nth-child(7) {
+        display: none;
+    }
+
+    .foods2 div:nth-child(4) {
+        display: block;
+    }
+
+    .foods3 div:nth-child(4) {
+        display: block;
+    }
+
+    .button-food1 {
+        display: flex;
+        justify-content: end;
+        margin-right: 12px;
+        margin-top: 12px;
+        position: absolute;
+        right: 1px;
+    }
+    .middle-footer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
